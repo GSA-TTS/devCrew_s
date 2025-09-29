@@ -1,0 +1,15 @@
+## Terraform ##
+*.tfvars
+# Compiled files
+*.tfstate*
+# Module directory
+.terraform/
+
+## Go ##
+vendor/
+*.zip
+dist/
+release/
+.DS_Store
+*/.DS_Store
+/.vscode

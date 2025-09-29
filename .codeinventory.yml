@@ -1,0 +1,12 @@
+name: 'GSA/[PROJECT]'
+description: '[PROJECT DESCRIPTION]'
+license: cc0-1.0
+openSourceProject: 1
+governmentWideReuseProject: 1
+tags:
+    - open-source
+    - opensource
+    - grace
+    - devsecops
+contact:
+    email: grace-staff@gsa.gov
