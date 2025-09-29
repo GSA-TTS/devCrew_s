@@ -1,0 +1,15 @@
+# Modified branch protection for single developer documentation repository
+# Maintains security best practices while accommodating solo development
+optConfig:
+  disableRepoOverride: false
+  optOutStrategy: true
+action: issue
+# Adjusted policies for solo development of documentation
+approvalCount: 0  # Can't require approval when you're alone
+blockForce: true  # Still prevent force pushes to maintain history
+dismissStale: false  # Not relevant without reviewers
+enforceDefault: true
+enforceOnAdmins: false  # Can't enforce on yourself as sole admin
+requireApproval: false  # Can't approve your own PRs
+requireSignedCommits: true  # Still maintain commit authenticity
+requireUpToDateBranch: true  # Keep branch current with main

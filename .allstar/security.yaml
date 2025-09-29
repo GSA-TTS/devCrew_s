@@ -1,0 +1,10 @@
+# Security policy configuration
+# Ensures repository has proper security policies in place
+optConfig:
+  disableRepoOverride: false
+  optOutStrategy: false  # Keep security policy enforcement active
+action: issue
+# Security policy requirements for documentation repository
+requireSecurityPolicy: true  # Require SECURITY.md file
+requireCodeOfConduct: false  # Optional for documentation repos
+requireContributing: false   # Optional for documentation repos

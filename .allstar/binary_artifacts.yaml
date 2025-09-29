@@ -1,0 +1,12 @@
+# Binary artifacts configuration
+# Lists allowed binary files in the repository
+optConfig:
+  disableRepoOverride: false
+  optOutStrategy: true
+action: issue
+# Add any binary files your documentation repository needs here
+ignoreFiles: []
+  # Examples for documentation repositories (uncomment and modify as needed):
+  # - "docs/images/logo.png"
+  # - "docs/diagrams/architecture.png"
+  # - "assets/fonts/custom.ttf"

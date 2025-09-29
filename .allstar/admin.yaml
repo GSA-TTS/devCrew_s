@@ -1,0 +1,5 @@
+# Override for single-developer scenario
+# Since AllStar requires team-based administration but this is a solo project,
+# we opt out of the admin policy to avoid violations
+optConfig:
+  optOut: true  # Opt out of admin policy since individual admins aren't allowed
