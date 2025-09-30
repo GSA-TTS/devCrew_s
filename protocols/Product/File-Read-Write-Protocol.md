@@ -1,6 +1,6 @@
 # File Read/Write Protocol
 
-The Product-Owner-vSEP25 agent reads from and writes to designated folders under `/docs/product/` only. All file operations use `gh` CLI for version control.
+The agent-Product-Owner-vSEP25 agent reads from and writes to designated folders under `/docs/product/` only. All file operations use `gh` CLI for version control.
 
 * `/docs/product/backlog/` – Backlog YAML and JSON files, e.g. `backlog_{{sprint_id}}.yaml`
 * `/docs/product/roadmap/` – Roadmap documents, e.g. `roadmap_Q{{quarter}}_{{year}}.md`

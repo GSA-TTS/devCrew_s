@@ -4,7 +4,7 @@
 
 **DevCrew_s** is the specification repository for the DevCrew multi-agent framework. This repository contains all agent specifications, protocol definitions, and architectural documentation that define how autonomous AI agents collaborate to perform complex software development tasks.
 
-> **Note**: This is a specification-only repository. For actual implementations, see the [DevCrew_i repository]().
+> **Note**: This is a specification-only repository. For actual implementations, see the DevCrew_i repository.
 
 ## 🚀 Why DevCrew?
 
@@ -45,11 +45,11 @@ Research shows AI agents can **boost team productivity by 60%** while humans mai
 
 | Agent | Role | Key Protocols |
 |-------|------|---------------|
-| **[Backend-Engineer](Backend-Engineer-vSEP25.md)** | Server-side development | GH-1, P-TDD, P-RECOVERY |
-| **[Code-Reviewer](Code-Reviewer-vSEP25.md)** | Quality assurance | Code Review, Security Scan, Feedback Generation |
-| **[Product-Owner](Product-Owner-vSEP25.md)** | Product strategy | RICE Scoring, User Story Mapping, Roadmap Sync |
-| **[QA-Tester](QA-Tester-vSEP25.md)** | Testing automation | P-TDD, Test Generation, Validation |
-| **[System-Architect](System-Architect-vSEP25.md)** | Architecture governance | ADR Creation, ASR Extraction, Technology Radar |
+| **[Backend-Engineer](agent-Backend-Engineer-vSEP25.md)** | Server-side development | GH-1, P-TDD, P-RECOVERY |
+| **[Code-Reviewer](agent-Code-Reviewer-vSEP25.md)** | Quality assurance | Code Review, Security Scan, Feedback Generation |
+| **[Product-Owner](agent-Product-Owner-vSEP25.md)** | Product strategy | RICE Scoring, User Story Mapping, Roadmap Sync |
+| **[QA-Tester](agent-QA-Tester-vSEP25.md)** | Testing automation | P-TDD, Test Generation, Validation |
+| **[System-Architect](agent-System-Architect-vSEP25.md)** | Architecture governance | ADR Creation, ASR Extraction, Technology Radar |
 
 
 ## 🔄 Core Protocols
@@ -78,14 +78,14 @@ DevCrew specifications can be implemented using various platforms:
 
 1. **Clone the specifications repository**
    ```bash
-   git clone https://github.com/yourusername/devCrew_s.git
+   git clone <repository-url>
    cd devCrew_s
    ```
 
 2. **Study the core agent specifications**
-   - [Backend-Engineer-vSEP25.md](Backend-Engineer-vSEP25.md) - Development workflows
-   - [System-Architect-vSEP25.md](System-Architect-vSEP25.md) - Architecture governance
-   - [QA-Tester-vSEP25.md](QA-Tester-vSEP25.md) - Test automation
+   - [agent-Backend-Engineer-vSEP25.md](agent-Backend-Engineer-vSEP25.md) - Development workflows
+   - [agent-System-Architect-vSEP25.md](agent-System-Architect-vSEP25.md) - Architecture governance
+   - [agent-QA-Tester-vSEP25.md](agent-QA-Tester-vSEP25.md) - Test automation
 
 3. **Understand the protocol structure**
    - Begin with [GH-1 GitHub Issue Triage](protocols/Development/GH-1-Github-Issue-Triage-Protocol.md)
@@ -94,11 +94,11 @@ DevCrew specifications can be implemented using various platforms:
 
 4. **Choose your implementation approach**
    - Review the [implementation guides](docs/guides/) for your platform
-   - Fork the [DevCrew_i repository](https://github.com/yourusername/DevCrew_i) for implementation
+   - Fork the DevCrew_i repository for implementation
    - Follow platform-specific setup instructions
 
 5. **Contribute improvements**
-   - Propose new agents via [agent proposals](https://github.com/yourusername/devCrew_s/issues/new?template=agent_proposal.md)
+   - Propose new agents via [agent proposals](.github/ISSUE_TEMPLATE/agent_proposal.md)
    - Submit protocol enhancements
    - Share implementation experiences
 
@@ -117,7 +117,7 @@ DevCrew specifications can be implemented using various platforms:
 ### 📝 Ways to Contribute
 
 #### Quick Wins (< 1 hour)
-- 🐛 **Report Issues**: Found a bug or inconsistency? [Open an issue](https://github.com/yourusername/devCrew_s/issues)
+- 🐛 **Report Issues**: Found a bug or inconsistency? Open an issue
 - 📝 **Fix Documentation**: Improve clarity, fix typos, add examples
 - 💡 **Suggest Ideas**: Propose enhancements via issues
 
@@ -142,9 +142,9 @@ DevCrew specifications can be implemented using various platforms:
   - [CrewAI Guide](docs/guides/DevCrew%20Agent%20Implementation%20Guide%20for%20CrewAI.md)
 - **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting
 
-- 📖 **Documentation**: Start with our [comprehensive guides](docs/guides/)
-- 🐛 **Bug Reports**: [Report issues](https://github.com/GSA-TTS/devCrew_s/issues/new?template=bug_report.md)
-- 💡 **Feature Requests**: [Suggest improvements](https://github.com/GSA-TTS/devCrew_s/issues/new?template=feature_request.md)
+- 📖 **Documentation**: Start with our [implementation guides](docs/guides/)
+- 🐛 **Bug Reports**: [Report issues](.github/ISSUE_TEMPLATE/bug_report.md)
+- 💡 **Feature Requests**: [Suggest improvements](.github/ISSUE_TEMPLATE/feature_request.md)
 - 📧 **Contact**: Reach out through issue tracker or pull requests
 
 ## ⚖️ License
@@ -157,4 +157,4 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 
 ---
 
-*Ready to contribute? Start with a [good first issue](https://github.com/yourusername/devCrew_s/labels/good%20first%20issue) or [create an issue](https://github.com/yourusername/devCrew_s/issues/new) with your ideas. For questions or collaboration opportunities, please open an issue or submit a pull request.*
+*Ready to contribute? Start with a good first issue or create an issue with your ideas. For questions or collaboration opportunities, please open an issue or submit a pull request.*

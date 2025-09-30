@@ -108,7 +108,7 @@ dev-crew-project/
 
 ### Example: Backend Engineer Implementation
 
-Based on your Backend-Engineer-vSEP25 specification:[^10]
+Based on your agent-Backend-Engineer-vSEP25 specification:[^10]
 
 **DevCrew Specification Summary:**
 
@@ -929,7 +929,7 @@ Start with the CLI quick-start, progressively enhance with advanced patterns, an
 
 [^9]: https://blog.crewai.com/getting-started-with-crewai-build-your-first-crew/
 
-[^10]: Backend-Engineer-vSEP25.md
+[^10]: agent-Backend-Engineer-vSEP25.md
 
 [^11]: https://github.com/crewAIInc/crewAI/discussions/1220
 
@@ -961,7 +961,7 @@ Start with the CLI quick-start, progressively enhance with advanced patterns, an
 
 [^25]: https://www.projectpro.io/article/crew-ai-projects-ideas-and-examples/1117
 
-[^26]: Code-Reviewer-vSEP25.md
+[^26]: agent-Code-Reviewer-vSEP25.md
 
 [^27]: https://latenode.com/blog/crewai-framework-2025-complete-review-of-the-open-source-multi-agent-ai-platform
 
