@@ -4,7 +4,7 @@ This comprehensive guide demonstrates how to convert DevCrew agent specification
 
 ## Overview
 
-DevCrew specifications define comprehensive frameworks for autonomous software development teams. AWS Strands Agents provides an ideal implementation platform through its model-driven approach, where the foundation model's reasoning abilities handle planning and tool usage autonomously. Strands emphasizes simplicity - developers create agents with a prompt (defining the agent's role) and tools, and the LLM determines how to chain reasoning and invoke tools as needed.
+DevCrew specifications define comprehensive frameworks for autonomous development teams across various domains. AWS Strands Agents provides an ideal implementation platform through its model-driven approach, where the foundation model's reasoning abilities handle planning and tool usage autonomously. Strands emphasizes simplicity - developers create agents with a prompt (defining the agent's role) and tools, and the LLM determines how to chain reasoning and invoke tools as needed.
 
 Please note that implementation details (codes) listed below are examples only.
 
@@ -573,7 +573,7 @@ def qa_tester(test_strategy: str) -> str:
 technical_lead = Agent(
     name="Technical-Lead",
     system_prompt="""
-    You are a Technical Lead coordinating a software development team.
+    You are a Technical Lead coordinating a development team.
     You don't implement code yourself - you delegate to specialists:
 
     - backend_engineer: For API and server-side implementation
@@ -1314,7 +1314,7 @@ def complete_github_workflow(issue_number: int) -> str:
 devcrew_agent = Agent(
     name="DevCrew-Complete",
     system_prompt="""
-    You coordinate complete software development workflows.
+    You coordinate complete development workflows.
     Use the complete_github_workflow tool to handle issues end-to-end.
     """,
     tools=[complete_github_workflow]
@@ -1401,7 +1401,7 @@ def automated_tdd_workflow(feature_description: str, test_file: str, impl_file: 
 
 ## Conclusion
 
-DevCrew specifications provide comprehensive frameworks for autonomous software development teams. AWS Strands Agents offers a production-ready platform for implementing these specifications through:
+DevCrew specifications provide comprehensive frameworks for autonomous development teams across various domains. AWS Strands Agents offers a production-ready platform for implementing these specifications through:
 
 - **Model-Driven Architecture**: LLM autonomously handles planning and tool usage
 - **Code-First Simplicity**: Create agents in just a few lines of Python

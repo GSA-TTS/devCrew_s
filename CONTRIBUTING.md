@@ -5,7 +5,7 @@
 > feature-request you are agreeing to comply with this waiver of copyright interest.
 > Details can be found in our [LICENSE](LICENSE.md).
 
-We're so glad you're thinking about contributing to the DevCrew project! If you're unsure about anything, just ask -- or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
+We're so glad you're thinking about contributing to the DevCrew project! Whether you're from software engineering, product management, operations, data science, or any other domain, your expertise is valuable here. If you're unsure about anything, just ask -- or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
 
 ### 🚀 Quick Links
 - [Submit an Issue](#submit-an-issue) - Report bugs, propose changes, or request updates
@@ -16,7 +16,7 @@ We're so glad you're thinking about contributing to the DevCrew project! If you'
 
 ## Types of Contributions
 
-We welcome the following contributions to the DevCrew ecosystem:
+We welcome the following contributions to the DevCrew ecosystem across all development domains:
 
 ### Protocol Contributions
 - 📝 **Improve Existing Protocols**: Refine step definitions for clarity or efficiency, enhance failure-handling and escalation paths, add examples and edge-case guidance

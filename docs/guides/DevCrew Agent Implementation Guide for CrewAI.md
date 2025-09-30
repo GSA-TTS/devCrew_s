@@ -2,7 +2,7 @@
 
 ## Overview
 
-DevCrew specifications define comprehensive frameworks for autonomous software development teams. CrewAI provides an ideal implementation platform through its role-based agent architecture, YAML-first configuration, and enterprise-ready deployment. CrewAI is an open-source framework that has reached 30.5K GitHub stars and 1M monthly downloads, built independently from LangChain with a focus on role-playing agent systems.[^1]
+DevCrew specifications define comprehensive frameworks for autonomous development teams across various domains. CrewAI provides an ideal implementation platform through its role-based agent architecture, YAML-first configuration, and enterprise-ready deployment. CrewAI is an open-source framework that has reached 30.5K GitHub stars and 1M monthly downloads, built independently from LangChain with a focus on role-playing agent systems.[^1]
 
 Please note that implementation details (codes) listed below are examples only.
 
@@ -274,7 +274,7 @@ from crewai_tools import (
 
 @CrewBase
 class DevCrewProject:
-    """DevCrew multi-agent software development team"""
+    """DevCrew multi-agent development team"""
     
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'

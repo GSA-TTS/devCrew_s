@@ -1,8 +1,8 @@
-# DevCrew_s: Specifications for AI-Powered Multi-Agent Software Development
+# DevCrew_s: Specifications for AI-Powered Multi-Agent Development
 
 ## 🎯 Overview
 
-**DevCrew_s** is the specification repository for the DevCrew multi-agent framework. This repository contains all agent specifications, protocol definitions, and architectural documentation that define how autonomous AI agents collaborate to perform complex software development tasks.
+**DevCrew_s** is the specification repository for the DevCrew multi-agent framework. This repository contains all agent specifications, protocol definitions, and architectural documentation that define how autonomous AI agents collaborate to perform complex development tasks across various domains.
 
 > **Note**: This is a specification-only repository. For actual implementations, see the DevCrew_i repository.
 
@@ -109,7 +109,7 @@ DevCrew specifications can be implemented using various platforms:
 
 ### 🌟 Why Contribute?
 
-- **Shape the Future**: Help define how AI agents collaborate in software development
+- **Shape the Future**: Help define how AI agents collaborate in development workflows
 - **Learn & Grow**: Gain expertise in AI agent architecture and protocols
 - **Community Impact**: Your improvements benefit thousands of developers
 - **Recognition**: Contributors are credited in our releases and documentation
@@ -157,4 +157,4 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 
 ---
 
-*Ready to contribute? Start with a good first issue or create an issue with your ideas. For questions or collaboration opportunities, please open an issue or submit a pull request.*
+*Ready to contribute? Start with a good first issue or create an issue with your ideas. Whether you're from software, product, operations, or any other domain, your expertise can help shape the future of AI-assisted development.*

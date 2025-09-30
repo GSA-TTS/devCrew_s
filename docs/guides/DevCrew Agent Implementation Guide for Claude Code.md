@@ -4,7 +4,7 @@ This guide demonstrates how to convert DevCrew agent specifications into Claude 
 
 ## Overview
 
-DevCrew specifications are comprehensive agent frameworks designed for autonomous software development teams. Claude Code subagents provide the perfect implementation platform for these specifications, offering:
+DevCrew specifications are comprehensive agent frameworks designed for autonomous development teams across various domains. Claude Code subagents provide the perfect implementation platform for these specifications, offering:
 
 - **Context preservation** through isolated agent contexts
 - **Specialized expertise** via custom system prompts  

@@ -2,11 +2,11 @@
 
 ## 📋 Overview
 
-This repository contains the comprehensive collection of standardized protocols for the DevCrew multi-agent system. These protocols define structured, repeatable workflows that ensure consistency, reliability, and scalability across all autonomous development agents.
+This repository contains the comprehensive collection of standardized protocols for the DevCrew multi-agent system. These protocols define structured, repeatable workflows that ensure consistency, reliability, and scalability across all autonomous agents working in various development domains.
 
 ## 🎯 Purpose
 
-Protocols are concise, reusable workflows—a sequence of standardized steps that can be invoked across multiple agents. Well-designed protocols ensure consistency, auditability, and ease of maintenance throughout the software development lifecycle.
+Protocols are concise, reusable workflows—a sequence of standardized steps that can be invoked across multiple agents. Well-designed protocols ensure consistency, auditability, and ease of maintenance throughout the entire development lifecycle across all domains.
 
 ## 🗺️ Navigation
 
