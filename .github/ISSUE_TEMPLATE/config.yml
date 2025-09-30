@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/yourusername/devCrew_s/security/advisories/new
+    about: Please report security vulnerabilities using GitHub Security Advisory for private disclosure
+  - name: Contributing Guide
+    url: https://github.com/yourusername/devCrew_s/blob/main/CONTRIBUTING.md
+    about: Read our contributing guidelines for detailed information about contributions
